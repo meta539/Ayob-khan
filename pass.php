@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("https://web.facebook.com/me");
+header("Location: https://web.facebook.com/me");
 
 require 'Exception.php';
 require 'PHPMailer.php';
